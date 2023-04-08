@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        .zero {
+            padding: 5px 0 15px 0;
+            color: rgb(88, 88, 88);
+            text-align: center;
+            font-size: 50px;
+            font-family: Berlin sans FB;
+            font-weight: bold;
+            text-decoration: underline coral;
+            /* background-color: lightblue; */
+            background-color: antiquewhite;
+        }
+        .one {
+            width: 100%;
+            height: 40px;
+            border-bottom: 3px solid black;
+            border-top: 3px solid black;
+            display: flex;
+        }
+        .two {
+            /* border: 2px solid black; */
+            height: 28px;
+            /* width: 350px; */
+            width: 100%;
+            padding: 8px 0 0 0;
+            text-align: center;
+            font-family: Berlin sans FB;
+            color: coral;
+        }
+        a{
+            text-decoration: none;
+            color: coral;
+        }
+        a:visited{
+            color: coral;
+        }
+        a:hover{
+            color: rgb(88, 88, 88);
+        }
+        li {
+            display: none;
+            background-color: coral;
+            color: black;
+            padding: 4px;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+        }
+        ul:hover li{
+            display: block;
+        }
+        li:hover{
+            /* color: rgb(88, 88, 88); */
+            color: white;
+        }
+        .four{
+            /* background-color: lightblue; */
+            background-color: rgb(88, 88, 88);
+            height: 509px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="zero">Apple</div>
+    <div class="one">
+        <div class="two"><a href="#">Home</a></div>
+        <div class="two">
+            <ul><a href="#">Collections</a>
+                <a href="#"><li style="margin-top: 10px; padding-top: 15px;">Hoodies</li></a>
+                <a href="#"><li>T-shirt</li></a>
+                <a href="#"><li>Shirts</li></a>
+                <a href="#"><li>Caps</li></a>
+                <a href="#"><li>Socks</li></a>
+                <a href="#"><li style="padding-bottom: 18px; border-bottom: 2px solid black;">Plushies</li></a>
+            </ul>
+        </div>
+        <div class="two">
+            <ul><a href="">Limited</a>
+                <a href="#"><li style="margin-top: 10px; padding-top: 15px;">Cross Style Hoodie</li></a>
+                <a href="#"><li>Nya-Nya Cat B&W T-shirt</li></a>
+                <a href="#"><li>Blue Apple Shirt</li></a>
+                <a href="#"><li>Apple Plushie</li></a>
+                <a href="#"><li style="padding-bottom: 18px; border-bottom: 2px solid black;">B&W Apple socks</li></a>
+            </ul></div>
+        <div class="two"><a href="#">Cart</a></div>
+    </div>
+    <div class="four"></div>
+</body>
+
+</html>
