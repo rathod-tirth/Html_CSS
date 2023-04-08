@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        #head{
+            height: 100px;
+            width: 100%;
+            background-color: cyan;
+            display: flex;
+        }
+        #logo{
+            height: inherit;
+            width: 20%;
+            background-color: crimson;
+        }
+        #link{
+            height: inherit;
+            width: 80%;
+            background-color: yellow;
+        }
+        #l1{
+            height: 50%;
+            background-color: black;
+        }
+        #l2{
+            height: 50%;
+            background-color: tomato;
+        }
+        #main{
+            height: 400px;
+            width: 100%;
+            background-color: lime;
+            display: flex;
+        }
+        #m1{
+            height: inherit;
+            width: 50%;
+            background-color: royalblue;
+            display: flex;
+        }
+        #m11{
+            height: inherit;
+            width: 50%;
+            background-color: rosybrown;
+        }
+        #m12{
+            height: inherit;
+            width: 50%;
+            background-color: orange;
+        }
+        #mm1{
+            height: 50%;
+            background-color: royalblue;
+        }
+        #mm2{
+            height: 50%;
+            background-color: red;
+        }
+        #mm3{
+            height: 50%;
+            background-color: rosybrown;
+        }
+        #mm4{
+            height: 50%;
+            background-color: orange;
+        }
+        #m2{
+            height: inherit;
+            width: 50%;
+            background-color: aquamarine;
+            display: flex;
+        }
+        #m21{
+            height: inherit;
+            width: 50%;
+            background-color: aquamarine;
+        }
+        #m22{
+            height: inherit;
+            width: 50%;
+            background-color: gray;
+        }
+        #footer{
+            height: 100px;
+            width: 100%;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+        <div id="logo"></div>
+        <div id="link">
+            <div id="l1"></div>
+            <div id="l2"></div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="m1">
+            <div id="m11">
+                <div id="mm1"></div>
+                <div id="mm2"></div>
+            </div>
+            <div id="m12">
+                <div id="mm3"></div>
+                <div id="mm4"></div>    
+            </div>
+        </div>
+        <div id="m2">
+            <div id="m21"></div>
+            <div id="m22"></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
