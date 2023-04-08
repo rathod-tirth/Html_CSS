@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo-class</title>
+    <style>
+        a {
+            display: block;
+            height: 50px;
+            width: 100px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        a:hover {
+            background-color: coral;
+        }
+
+        a:link {
+            color: crimson;
+        }
+
+        a:visited {
+            color: hotpink;
+        }
+
+        a:active {
+            background-color: lightseagreen;
+        }
+
+        p:first-child {
+            color: yellow;
+        }
+        p:last-child{
+            color: red;
+        }
+        p:nth-child(2){
+            color: royalblue;
+        }
+        p:nth-child(3){
+            color: seagreen;
+        }
+        p:nth-child(4){
+            color: brown;
+        }
+        input[type="text"]:focus{
+            background-color: black;
+            color: hotpink;
+            border: 2px solid hotpink;
+            outline: 0;
+        }
+        input[type="checkbox"]:checked{
+            height: 50px;
+            width: 50px;
+        }
+        input[type="number"]:in-range{
+            border: 2px solid green;
+            outline: 0;
+        }
+        input[type="number"]:out-of-range{
+            border: 2px solid red;
+            outline: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">Hello</a>
+    <div>
+        <p>A</p>
+        <p>B</p>
+        <p>C</p>
+        <p>D</p>
+        <p>E</p>
+    </div>
+    <input type="text">
+    <input type="checkbox" name="" id="">
+    <input type="number" name="" id="" max="10" min="0">
+</body>
+
+</html>
