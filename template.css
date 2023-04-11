@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(43, 72, 160);
+}
+.head {
+    width: 100%;
+    height: 60px;
+    /* background-color: white; */
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 30%;
+    height: 60px;
+    /* background-color: pink; */
+}
+.logo a{
+    color: white;
+    font-size: 24px;
+    font-family: verdana;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 80px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 70%;
+    height: 60px;
+    /* background-color: gold; */
+}
+.parent{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.parent:hover{
+    color: dodgerblue;
+}
+li{
+    list-style: none;
+    padding: 5px 10px;
+}
+.child:first-child li{
+    padding-top: 10px;
+}
+.child:last-child li{
+    padding-bottom: 10px;
+}
+.child{
+    color: royalblue;
+    text-decoration: none;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.bird{
+    display: none;
+
+    position: absolute;
+    background-color: white;    
+    width: 150px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0 0 0 / 18%);
+}
+ul:hover .bird{
+    display: block;
+}
+li:hover{
+    background-color: #f3f3f3;
+    color: blue;
+    border-radius: 4px;
+}
+.get{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: serif;
+    font-weight: bold;
+    border: 2px solid dodgerblue;
+    border-radius: 50px;
+    padding: 3px 15px;
+    margin: 10px;
+}
+.get:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: green; */
+}
+.big{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: serif;
+}
+.small{
+    color: white;
+    font-size: 18px;
+    font-family: serif;
+    font-weight: bold;
+}
+.get2{
+    color: white;
+    background-color: dodgerblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: serif;
+    font-weight: bold;
+    border: 2px solid dodgerblue;
+    border-radius: 50px;
+    padding: 3px 15px;
+    margin: 10px;
+}
+.get2:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+.video{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: serif;
+    font-weight: bold;
+}
+.fa-circle-play{
+    color: white;
+    font-size: 20px;
+}
+img{
+    width: auto;
+    height: 400px;
+    margin: 100px;
+}
