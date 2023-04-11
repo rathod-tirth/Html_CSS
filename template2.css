@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 637px;
+    background-image: url(sample/louis-droege-PIOaj0-cDmA-unsplash1.jpg);
+    background-size: cover;
+    background-position-x: 200px;
+}
+/* Header Start */
+.nav{
+    width: 20%;
+    height: inherit;
+    background-color: rgb(6, 12, 26);
+}
+/* Profile and Socials Start */
+.top{
+    height: 35%;
+    width: 100%;
+    /* background-color: pink; */
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    background-image: url(sample/istockphoto-1188445864-612x612.jpg);
+    background-size: cover;
+    background-position-x: 170px;
+    border-radius: 50%;
+    border: 8px solid darkslategray;
+}
+.name{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.social{
+    width: 100%;
+    /* height: 35px; */
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social a{
+    text-decoration: none;
+    display: block;
+    height: 35px;
+    width: 35px;
+    color: white;
+    background-color: darkslategray;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: 0.1s;
+}
+.social a i{
+    padding: 8px 0 0 0;
+    font-size: 18px;
+    color: white;
+}
+.social a:hover{
+    background-color: lightseagreen;
+}
+/* Profile and Socials End */
+/* Navbar Start */
+.bottom{
+    width: 100%;
+    margin-top: 20px;
+    /* background-color: black; */
+}
+.line{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 15px 15px 15px 25px;
+    transition: 0.3s;
+}
+.line i{
+    width: 25px;
+    font-size: 20px;
+    padding-right: 15px;
+    text-align: center;
+}
+.line:hover{
+    background-color: lightseagreen;
+    transition: 0s;
+}
+/* Navbar End */
+/* Header End */
+
+/* Body Start */
+.body{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 80%;
+    height: inherit;
+    background-color: rgba(6, 12, 26, 0.493);
+}
+.one{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 250px;
+}
+.two{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 250px;
+}
+.under{
+    font-style: normal;
+    text-decoration: underline solid royalblue 4px;
+}
+/* Body End */
