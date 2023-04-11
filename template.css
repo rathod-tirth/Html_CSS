@@ -2,16 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: rgb(43, 72, 160);
 }
+
 .head {
     width: 100%;
     height: 60px;
     /* background-color: white; */
     display: flex;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -19,7 +22,8 @@ body {
     height: 60px;
     /* background-color: pink; */
 }
-.logo a{
+
+.logo a {
     color: white;
     font-size: 24px;
     font-family: verdana;
@@ -27,7 +31,8 @@ body {
     text-decoration: none;
     margin-left: 80px;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +41,8 @@ body {
     height: 60px;
     /* background-color: gold; */
 }
-.parent{
+
+.parent {
     display: block;
     padding: 15px;
     color: white;
@@ -45,44 +51,53 @@ body {
     font-weight: bold;
     font-size: 18px;
 }
-.parent:hover{
+
+.parent:hover {
     color: dodgerblue;
 }
-li{
+
+li {
     list-style: none;
     padding: 5px 10px;
 }
-.child:first-child li{
+
+.child:first-child li {
     padding-top: 10px;
 }
-.child:last-child li{
+
+.child:last-child li {
     padding-bottom: 10px;
 }
-.child{
+
+.child {
     color: royalblue;
     text-decoration: none;
     font-family: serif;
     font-weight: bold;
     font-size: 18px;
 }
-.bird{
+
+.bird {
     display: none;
 
     position: absolute;
-    background-color: white;    
+    background-color: white;
     width: 150px;
     border-radius: 4px;
     box-shadow: 0 0 15px rgba(0 0 0 / 18%);
 }
-ul:hover .bird{
+
+ul:hover .bird {
     display: block;
 }
-li:hover{
+
+li:hover {
     background-color: #f3f3f3;
     color: blue;
     border-radius: 4px;
 }
-.get{
+
+.get {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -93,12 +108,14 @@ li:hover{
     padding: 3px 15px;
     margin: 10px;
 }
-.get:hover{
+
+.get:hover {
     background-color: white;
     color: black;
     border-color: white;
 }
-.main{
+
+.main {
     display: flex;
     width: 100%;
     height: 550px;
@@ -106,19 +123,22 @@ li:hover{
     align-items: center;
     /* background-color: green; */
 }
-.big{
+
+.big {
     color: white;
     font-size: 50px;
     font-weight: bold;
     font-family: serif;
 }
-.small{
+
+.small {
     color: white;
     font-size: 18px;
     font-family: serif;
     font-weight: bold;
 }
-.get2{
+
+.get2 {
     color: white;
     background-color: dodgerblue;
     text-decoration: none;
@@ -130,23 +150,27 @@ li:hover{
     padding: 3px 15px;
     margin: 10px;
 }
-.get2:hover{
+
+.get2:hover {
     background-color: white;
     color: black;
     border-color: white;
 }
-.video{
+
+.video {
     color: white;
     text-decoration: none;
     font-size: 18px;
     font-family: serif;
     font-weight: bold;
 }
-.fa-circle-play{
+
+.fa-circle-play {
     color: white;
     font-size: 20px;
 }
-img{
+
+img {
     width: auto;
     height: 400px;
     margin: 100px;
