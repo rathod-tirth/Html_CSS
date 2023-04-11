@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        /* ----- Animation (from to) ----- */
+        #one{
+            height: 200px;
+            width: 200px;
+            animation-name: obb;
+            animation-duration: 2s;
+            animation-delay: 0.2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes obb {
+            from{background-color: aqua;}
+            to{background-color: hotpink;}
+        }
+
+        /* ----- Animation (%) ----- */
+        #two{
+            height: 200px;
+            width: 200px;
+            animation: obb2 2s 0.2s infinite;
+        }
+        @keyframes obb2 {
+            0%{
+                background-color: black;
+            }
+            33%{
+                height: 300px;
+                width: 300px;
+                background-color: crimson;
+            }
+            66%{
+                background-color: royalblue;
+            }
+            100%{
+                background-color: coral;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+</body>
+</html>
