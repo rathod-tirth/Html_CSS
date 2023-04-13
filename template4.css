@@ -26,9 +26,12 @@ html {
     font-weight: 400;
     font-family: "Montserrat";
     margin: 0 30px;
+    transition: 0.2s;
 }
 
 .nav a:hover {
+    text-shadow: 3px 3px 4px white;
+    font-weight: bold;
     color: white;
 }
 
@@ -88,6 +91,7 @@ html {
     font-weight: bold;
     color: #4a1831;
     margin: 25px 0px 0px 70px;
+    transition: 0.2s;
 }
 
 .order:hover {
