@@ -39,14 +39,15 @@ html {
     width: 1350px;
     height: fit-content;
 }
-.part0{
+
+.part0 {
     width: 1350px;
     height: 60px;
 }
+
 .part1 {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     width: 1350px;
     height: 596px;
     background-image: url(sample/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png);
@@ -98,6 +99,7 @@ html {
     background-color: #4a1831;
     color: #ffd7ad;
 }
+
 .part2 {
     position: relative;
     display: flex;
@@ -178,7 +180,7 @@ html {
 .part5 img {
     height: 600px;
     position: absolute;
-   top: 100px;
+    top: 100px;
     left: 400px;
     overflow: hidden;
 }
@@ -350,25 +352,31 @@ html {
     font-family: "Roboto";
     line-height: 28px;
 }
-.one .endsmall{
+
+.one .endsmall {
     width: 500px;
 }
-.one img{
+
+.one img {
     width: 40px;
     height: 40px;
     margin: 15px 3px;
 }
-.two{
+
+.two {
     display: flex;
     justify-content: space-evenly;
 }
-.two .more{
+
+.two .more {
     margin: 20px;
 }
-.two .endsmall a{
+
+.two .endsmall a {
     color: #ffd7ad;
     text-decoration: none;
 }
-.two .endsmall a:hover{
+
+.two .endsmall a:hover {
     color: white;
 }
