@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <style>
+        .main{
+            position: relative;
+        }
+        .one{
+            height: 200px;
+            width: 350px;
+            border: 2px solid black;
+        }
+        .two{
+            height: 100px;
+            width: 250px;
+            background-color: red;
+            position: absolute;
+            top: 150px;
+            left: 80px;
+            z-index: -1;
+        }
+        .three{
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+            position: absolute;
+            top: 70px;
+            left: 300px;
+            z-index: -2;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+</body>
+</html>
