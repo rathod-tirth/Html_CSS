@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>span</title>
+    <style>
+        div{
+            display: grid;
+        }
+        .one{
+            background-color: gray;
+            color: white;
+            margin: 5px;
+            padding: 20px;
+            text-align: center;
+        }
+        .one:nth-child(1){
+            grid-column: span 12;
+        }
+        .one:nth-child(2), .one:nth-child(3){
+            grid-column: span 6;
+        }
+        .one:nth-child(4), .one:nth-child(5), .one:nth-child(6){
+            grid-column: span 4;
+        }
+        .one:nth-child(7), .one:nth-child(8), .one:nth-child(9), .one:nth-child(10){
+            grid-column: span 3;
+        }
+        .one:nth-child(11), .one:nth-child(12), .one:nth-child(13), .one:nth-child(14), .one:nth-child(15), .one:nth-child(16){
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="one">1</div>
+        <div class="one">2</div>
+        <div class="one">3</div>
+        <div class="one">4</div>
+        <div class="one">5</div>
+        <div class="one">6</div>
+        <div class="one">7</div>
+        <div class="one">8</div>
+        <div class="one">9</div>
+        <div class="one">10</div>
+        <div class="one">11</div>
+        <div class="one">12</div>
+        <div class="one">13</div>
+        <div class="one">14</div>
+        <div class="one">15</div>
+        <div class="one">16</div>
+        <div class="one">17</div>
+        <div class="one">18</div>
+        <div class="one">19</div>
+        <div class="one">20</div>
+        <div class="one">21</div>
+        <div class="one">22</div>
+        <div class="one">23</div>
+        <div class="one">24</div>
+        <div class="one">25</div>
+        <div class="one">26</div>
+        <div class="one">27</div>
+        <div class="one">28</div>
+    </div>
+</body>
+</html>

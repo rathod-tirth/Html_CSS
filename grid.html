@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        div{
+            /* display: grid; */
+            display: inline-grid;
+            /* column-gap: 20px; */
+            /* row-gap: 20px; */
+            gap: 10px 10px;
+            grid-template-columns: auto auto auto;
+        }
+        .one{
+            border: 2px solid black;
+            padding: 20px;
+            color: crimson;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="one">1</div>
+        <div class="one">2</div>
+        <div class="one">3</div>
+        <div class="one">4</div>
+        <div class="one">5</div>
+        <div class="one">6</div>
+        <div class="one">7</div>
+        <div class="one">8</div>
+        <div class="one">9</div>
+    </div>
+</body>
+</html>

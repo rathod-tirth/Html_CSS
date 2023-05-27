@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .one{
+            display: inline-grid;
+            grid-template-columns: auto auto;
+            height: 500px;
+            width: 500px;
+        }
+        .one div{
+            border: 2px solid black;
+            padding: 20px;
+        }
+        .a1{
+            background-image: url(sample/astemir-almov--kgrPSetNW8-unsplash.jpg);
+            background-size: cover;
+            grid-row: 1/4;
+            grid-column: 1/2;
+        }
+        .a2{
+            background-image: url(sample/Fenyr12.jpg);
+            background-size: cover;
+            grid-row: 1/3;
+            grid-column: 2/4;
+        }
+        .a3{
+            background-image: url(sample/jason-blackeye-GPPAjJicemU-unsplash.jpg);
+            background-size: cover;
+            grid-row: 3/4;
+            grid-column: 2/3;
+        }
+        .a4{
+            background-image: url(sample/yan-liu-j3TrGxN_rCM-unsplash.jpg);
+            background-size: cover;
+            grid-row: 3/5;
+            grid-column: 3/4;
+        }
+        .a5{
+            background-image: url(sample/ian-schneider-PAykYb-8Er8-unsplash.jpg);
+            background-size: cover;
+            grid-row: 4/5;
+            grid-column: 1/3;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="a1">1</div>
+        <div class="a2">2</div>
+        <div class="a3">3</div>
+        <div class="a4">4</div>
+        <div class="a5">5</div>
+    </div>
+</body>
+</html>
