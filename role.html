@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role Attribute</title>
+    <style>
+        .slider {
+            display: flex;
+        }
+
+        .slider img {
+            max-width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+    >> Roles: ARIA roles provide semantic meaning to content, allowing screen readers and other tools to present and 
+    support interaction with an object in a way that is consistent with user expectations of that type of object.
+
+    >> There are four types of roles
+    
+    1. Document Stucture roles: Document Structure roles are used to provide a structural description for a 
+    section of content. Most of these roles should no longer be used as browsers now support semantic HTML element 
+    with the same meaning.
+
+    Ex. article, defination, heading, img, table, etc.
+
+    2. Widget roles: The various widget role are used to define common interactive patterns. The widget roles 
+    require JavaScript interaction.
+
+    Ex. scrollbar, searchbox, slider, switch, etc.
+
+    3. Landmark roles: It provide a way to identify the structure of a web page. By classifying and labeling 
+    sections of a page, structural information conveyed visually through layout is represented programmatically.
+
+    Ex. navigation, form, main, banner, etc.
+
+    4. Abstract roles: They are only intended for use by browsers to help organize and streamline a document. 
+    They should not be used by developers writing HTML markup. Doing so will not result in any meaningful 
+    information being conveyed to assistive technologies or to users.
+
+    Ex. command, select, range, roletype, etc.
+    -->
+
+    <div class="container">
+        <!-- 1 -->
+        <div role="article">
+            <p>Hello</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum voluptatum natus nulla dolore
+                necessitatibus itaque, commodi iste voluptates vitae labore ipsam ex, aut iusto quas modi saepe
+                voluptas. Amet, ipsa.</p>
+        </div>
+
+        <!-- 2 -->
+        <div role="slider" class="slider">
+            <img src="sample/ian-schneider-PAykYb-8Er8-unsplash.jpg" alt="img1">
+            <img src="sample/jason-blackeye-GPPAjJicemU-unsplash.jpg" alt="img2">
+            <img src="sample/joseph-barrientos-oQl0eVYd_n8-unsplash.jpg" alt="img3">
+            <img src="sample/astemir-almov--kgrPSetNW8-unsplash.jpg" alt="img4">
+            <img src="sample/kyaw-tun-k6BHLfw_jUg-unsplash.jpg" alt="img5">
+        </div>
+
+        <!-- 3 -->
+        <div role="main">
+            <h2 aria-labelledby="main">Heading</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit voluptate eveniet corporis mollitia
+                harum. Delectus eligendi optio cumque veniam deleniti neque doloremque mollitia, officiis sunt minima
+                consectetur iure eaque? Doloribus!</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
