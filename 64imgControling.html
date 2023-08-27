@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Controlling</title>
+    <style>
+      figure {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      figure img {
+        width: 100%;
+        max-width: 400px;
+        height: 300px;
+        object-fit: cover;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+      figure img:hover {
+        filter: brightness(30%);
+      }
+    </style>
+  </head>
+  <body>
+    <figure class="wrapper">
+      <img src="yan-liu-j3TrGxN_rCM-unsplash.jpg" alt="flowers" />
+      <img src="joseph-barrientos-oQl0eVYd_n8-unsplash.jpg" alt="ocean" />
+      <img src="astemir-almov--kgrPSetNW8-unsplash.jpg" alt="city" />
+      <img src="mcgill-library-y4PqRPqSako-unsplash.jpg" alt="birds painting" />
+      <img src="jason-blackeye-GPPAjJicemU-unsplash.jpg" alt="sunset" />
+      <img src="ian-schneider-PAykYb-8Er8-unsplash.jpg" alt="firecracker" />
+    </figure>
+  </body>
+</html>
